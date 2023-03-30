@@ -56,6 +56,9 @@ li{
 }
 
 .page{
+    @media screen and (max-width: 950px) {
+    flex-direction: column;
+  }
     padding-top:0.7em;
     padding-bottom: 0.7em;
 }
