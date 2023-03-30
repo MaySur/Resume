@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+:root{
+    --mainTextColor-light:#000;
+    --secondaryTextColor-light:rgb(51 51 51);
+    --mainLinkColor-light:#0da2b8;
+    --mainBorderColor-light:rgb(218, 218, 218);
+    --mainBgColor-light:rgb(249, 250,251); 
+}
+
+*{
+    font-family:'Readex Pro';
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: var(--mainTextColor-light);
+    background-color: white;
+    margin-left: 0%;
+    
+}
+body{
+    background-color: var(--mainBgColor);
+}
+
+#skill-head{
+    text-decoration: underline;
+}
+h2{
+    color: rgb(234, 107, 107); 
+    text-decoration: underline;
+    display: block;
+    margin: 0;
+
+}
+h1{
+    color: rgb(234, 107, 107);
+    margin: 0;
+}
+p, span, li{
+    color: var(--secondaryTextColor-light);
+    font-size: 16px;
+    font-weight: 10;
+}
+a{
+    text-decoration: none;
+    color: rgb(234, 107, 107);
+    font-weight: 500;
+    
+}
+li{
+    line-height: 1.8em;
+}
+#main{
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.page{
+    padding-top:0.7em;
+    padding-bottom: 0.7em;
+}
+
+#sub-main{
+    padding-top:2em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+#edu-name li{
+    display: inline-block;
+}
+#edu-date li{
+    display:inline-block
+}
+#email{
+    font-size: 1em;
+    line-height: 1.5em;
+    list-style: none;
+}
+
+#bio, a{
+    font-weight: 300;
+    transition: 0.3s;
+
+    
+}
+
+#profile-pic{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#socials{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 1em;
+    flex-wrap: wrap;
+}
+
+#socials a{
+    font-size: 0.9em;
+}
+
+#socials a:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+#qual-list{
+    list-style: none;
+}
+#techstack__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    font-size: 0.9em;
+
+}
+.card span{
+    border: 1px solid;
+}
+
+
+
+  .flex-container > div {
+    display: flexbox;
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+  }
+ 
+
+.workHeader {
+
+display: flex;
+justify-content: space-between;
+width: 100%;
+
+  }
+
+.work-des{
+    font-size: small;
+    list-style:circle; 
+    margin-left: 60px;
+}   
+
+.company-des{
+    font-style: italic;
+    font-size: small;
+
+}
+.date-format{
+    font-size: small;
+    font-style: italic; 
+    list-style : none;
+}
+.work-name{
+    list-style: none; 
+    text-decoration: underline;
+}
+.link-bullet{
+    font-size: small;
+    list-style:circle; 
+    margin-left: 40px;
+}
+.link-bullet-college{
+    font-size: small;
+    list-style:none; 
+    font-style: italic;
+
+}
+   
+.link-bullet-college a:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.link-bullet a:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.project{
+    padding-top: 1em;
+    padding-bottom:1em ;
+}
+.project a{
+    color: var(--mainTextColor-light);
+    padding-left: 50px;
+    transition: .5s;
+}
+
+.project a:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.ss-header{
+    text-align: center;
+    font-size: 50px;;
+}
+
