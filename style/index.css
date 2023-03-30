@@ -14,6 +14,8 @@
     color: var(--mainTextColor-light);
     background-color: white;
     margin-left: 0%;
+
+   
     
 }
 body{
@@ -49,22 +51,26 @@ li{
     line-height: 1.8em;
 }
 #main{
+
+  
     max-width: 900px;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
+
+
+   
 }
 
 .page{
-    @media screen and (max-width: 950px) {
-    flex-direction: column;
-  }
+  
     padding-top:0.7em;
     padding-bottom: 0.7em;
-}
-.page{
+
+
     
 }
+
 
 #sub-main{
     padding-top:2em;
@@ -211,3 +217,33 @@ width: 100%;
     font-size: 50px;;
 }
 
+
+@media(max-width:600px){
+
+    .page{
+        padding-top:0.7em;
+        padding-bottom: 0.7em;
+    }
+
+    #sub-main{
+        padding-top:2em;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+    }
+
+    #profile-pic{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+    #sub-main{
+        flex-direction: column;
+    }
+
+    .workHeader{
+        border-left: none;
+        padding-left: 0;
+    }
+}
